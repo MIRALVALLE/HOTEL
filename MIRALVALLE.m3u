@@ -1,0 +1,99 @@
+#EXTM3U
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/AMC.jpg",AMC HD
+http://192.168.99.60:8000/play/a028/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/AXN.jpg",AXN HD
+http://192.168.99.60:8000/play/a060/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/ANIMAL_PLANET.jpg",Animal Planet HD
+http://192.168.99.60:8000/play/a024/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/BABYTV.jpg",Baby TV
+http://192.168.99.60:8000/play/a0f6/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/CARTOON_NETWORK.jpg",CARTOON NT HD
+http://192.168.99.60:8000/play/a0d5/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/CNN_ESPANOL.jpg",CNNE
+http://192.168.99.60:8000/play/a01u/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/CANAL3.png",Canal 3 - GUA
+http://192.168.99.60:8000/play/a03q/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/canal_antigua.png",Canal Antigua - GUA
+http://192.168.99.60:8000/play/a03n/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/azteca_guatema.png",Canal Azteca - GUA
+http://192.168.99.60:8000/play/a03o/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/DISCOVERY_CHANNEL.jpg",Discovery Channel HD
+http://192.168.99.60:8000/play/a069/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/DISCOVERY_INVESTIGATION.jpg",Discovery ID HD
+http://192.168.99.60:8000/play/a06e/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/DISCOVERY_KIDS.jpg",Discovery Kids HD
+http://192.168.99.60:8000/play/a06a/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/DISCOVERY_WORLD.jpg",Discovery World HD
+http://192.168.99.60:8000/play/a06b/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/E!.jpg",E! Entertairment HD
+http://192.168.99.60:8000/play/a025/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/ESPN+.jpg",ESPN  +
+http://192.168.99.60:8000/play/a020/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/ESPN2.jpg",ESPN 2 HD
+http://192.168.99.60:8000/play/a064/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/ESPN3.jpg",ESPN 3 HD
+http://192.168.99.60:8000/play/a063/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/ESPN.jpg",ESPN HD
+http://192.168.99.60:8000/play/a062/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/FOX_SPORTS2.jpg",FOX SPORTS 2 HD
+http://192.168.99.60:8000/play/a04o/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/FOX_SPORTS3.jpg",FOX SPORTS 3 HD
+http://192.168.99.60:8000/play/a065/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/film_&_anrts.jpg",Film & arts HD
+http://192.168.99.60:8000/play/a026/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/FOX_SPORTS.jpg",Fox Sports
+http://192.168.99.60:8000/play/a05g/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/GUATEVISION.jpg",Guatevision - GUA
+http://192.168.99.60:8000/play/a011/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HBO_FAMILY.jpg",HBO Family HD
+http://192.168.99.60:8000/play/a0d9/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HBO.jpg",HBO HD
+http://192.168.99.60:8000/play/a0d6/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HBO_PLUS.jpg",HBO Plus HD
+http://192.168.99.60:8000/play/a0d8/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HBO_XTREAME.jpg",HBO XTREME
+http://192.168.99.60:8000/play/a0da/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HBO_2.jpg",HBO2 HD
+http://192.168.99.60:8000/play/a0d7/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/HISTORY_CHANNEL.jpg",History HD
+http://192.168.99.60:8000/play/a01z/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/DISCOVERY_HOME_HEALTH.jpg",Home & Health HD
+http://192.168.99.60:8000/play/a04r/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/MTV_SIM.png",MTV SIM HD
+http://192.168.99.60:8000/play/a04u/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/NATIONAL_GEOGRAPHIC.jpg",Nat Geo HD
+http://192.168.99.60:8000/play/a066/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/Nickelodeon.jpg",Nickelodeon HD
+http://192.168.99.60:8000/play/a04m/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/PARAMOUNT.jpeg",Paramount HD
+http://192.168.99.60:8000/play/a067/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/PASIONES.png",Pasiones HD
+http://192.168.99.60:8000/play/a06c/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/SONY.jpg",SONY HD
+http://192.168.99.60:8000/play/a04k/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/SPACE_HD.jpg",SPACE HD
+http://192.168.99.60:8000/play/a061/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/FOX_PREMIUN_ACTION.jpg",STAR ACTION HD
+http://192.168.99.60:8000/play/a04y/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/FOX.png",STAR CHANNEL HD
+http://192.168.99.60:8000/play/a04i/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/FOX_PREMIUM_COMEDY.jpg",STAR COMEDY HD
+http://192.168.99.60:8000/play/a0d3/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/FOX_PREMIUN_MOVIES.jpg",STAR HITS HD
+http://192.168.99.60:8000/play/a04x/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/FOX_PREMIUM_SERIES.jpg",STAR SERIES HD
+http://192.168.99.60:8000/play/a04w/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/STUDIO_UNIVERSAL.jpg",Studio Universal HD
+http://192.168.99.60:8000/play/a022/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/syfy.png",SyFy HD
+http://192.168.99.60:8000/play/a023/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/citzep97/FIBERNET-IPTV/main/TNT.png",TNT HD
+http://192.168.99.60:8000/play/a04p/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/TNT_SERIES.png",TNT Series HD
+http://192.168.99.60:8000/play/a068/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/tve.jpg",TVE
+http://192.168.99.60:8000/play/a04h/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/TELEMUNDO_ INTERNACIONAL.jpg",Telemundo HD
+http://192.168.99.60:8000/play/a029/index.m3u8
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/WARNER.jpg",WARNER HD
+http://192.168.99.60:8000/play/a04j/index.m3u8
