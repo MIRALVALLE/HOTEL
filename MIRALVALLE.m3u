@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/",CANAL 22 HD
+#EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-02/main/CANAL_22.jpeg",CANAL 22 HD
 http://192.168.99.70/0.m3u8
 #EXTINF:-1,tvg-logo="https://raw.githubusercontent.com/FIBERNET-LR/LOGOSIPTV-01/main/AMC.jpg",AMC HD
 http://192.168.99.60:8000/play/a028/index.m3u8
