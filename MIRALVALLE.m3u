@@ -155,8 +155,6 @@ http://192.168.99.60:8000/play/a0hs/index.m3u8
 http://192.168.99.60:8000/play/a0kl/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kq.png",Pasiones HD
 http://192.168.99.60:8000/play/a0kq/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l7.png",Playboy
-http://192.168.99.60:8000/play/a0l7/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jn.png",RCN Novelas
 http://192.168.99.60:8000/play/a0jn/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0iw.png",RHEMA TV
@@ -213,7 +211,5 @@ http://192.168.99.60:8000/play/a0gn/index.m3u8
 http://192.168.99.60:8000/play/a0ih/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kr.png",Univision HD
 http://192.168.99.60:8000/play/a0kr/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0k1.png",VENUS
-http://192.168.99.60:8000/play/a0k1/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ho.png",WARNER HD
 http://192.168.99.60:8000/play/a0ho/index.m3u8
