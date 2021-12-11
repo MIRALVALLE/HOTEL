@@ -19,18 +19,18 @@ http://192.168.99.60:8000/play/a0h8/index.m3u8
 http://192.168.99.60:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g0.png",Boomerang
 http://192.168.99.60:8000/play/a0g0/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00u.png",CANAL 22 HD
-http://192.168.99.60:8000/play/a00u/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00y.png",CANAL 22 HD
+http://192.168.99.60:8000/play/a00y/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00s.png",CANAL 5 HD
 http://192.168.99.60:8000/play/a00s/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l0.png",CARTOON NT HD
 http://192.168.99.60:8000/play/a0l0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00v.png",CDN2
+http://192.168.99.60:8000/play/a00v/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hq.png",CINECANAL HD
 http://192.168.99.60:8000/play/a0hq/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gi.png",CNN Español
 http://192.168.99.60:8000/play/a0gi/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g2.png",CNN International
-http://192.168.99.60:8000/play/a0g2/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jk.png",Canal 11 - GUA
 http://192.168.99.60:8000/play/a0jk/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jj.png",Canal 13-GUA
@@ -91,10 +91,16 @@ http://192.168.99.60:8000/play/a0gl/index.m3u8
 http://192.168.99.60:8000/play/a0ki/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kh.png",ESPN 3 HD
 http://192.168.99.60:8000/play/a0kh/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ix.png",ESPN 4 HD
+http://192.168.99.60:8000/play/a0ix/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kg.png",ESPN HD
 http://192.168.99.60:8000/play/a0kg/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00x.png",EURO Channel
+http://192.168.99.60:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ku.png",El Gourmet
 http://192.168.99.60:8000/play/a0ku/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00u.png",Europa HD
+http://192.168.99.60:8000/play/a00u/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hk.png",Exa TV
 http://192.168.99.60:8000/play/a0hk/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ht.png",FOX SPORTS 2 HD
@@ -107,8 +113,6 @@ http://192.168.99.60:8000/play/a0gw/index.m3u8
 http://192.168.99.60:8000/play/a0gx/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gs.png",Film & arts HD
 http://192.168.99.60:8000/play/a0gs/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ix.png",Fox Sports  HD
-http://192.168.99.60:8000/play/a0ix/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jv.png",Golden
 http://192.168.99.60:8000/play/a0jv/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h1.png",Golf Channel HD
@@ -149,6 +153,8 @@ http://192.168.99.60:8000/play/a0gm/index.m3u8
 http://192.168.99.60:8000/play/a0gd/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hz.png",MTV SIM HD
 http://192.168.99.60:8000/play/a0hz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00w.png",Multimedios
+http://192.168.99.60:8000/play/a00w/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ij.png",Multipremier
 http://192.168.99.60:8000/play/a0ij/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kk.png",Nat Geo HD
