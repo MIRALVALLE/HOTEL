@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00l.png",BEIN SPORTS HD
+http://192.168.99.60:8000/play/a00l/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00m.png",LA LIGA HD
+http://192.168.99.60:8000/play/a00m/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00f.png",LAS ESTRELLAS HD
+http://192.168.99.60:8000/play/a00f/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00j.png",SKY SPORTS HD
+http://192.168.99.60:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00g.png",TUDN HD
+http://192.168.99.60:8000/play/a00g/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00h.png",DIRECTV SPORTS HD
+http://192.168.99.60:8000/play/a00h/index.m3u8
