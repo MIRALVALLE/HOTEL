@@ -7,8 +7,6 @@ http://192.168.99.60:8000/play/a0gu/index.m3u8
 http://192.168.99.60:8000/play/a0iy/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gz.png",AZ click HD
 http://192.168.99.60:8000/play/a0gz/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00e.png",AZTECA 7 HD
-http://192.168.99.60:8000/play/a00e/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gq.png",Animal Planet HD
 http://192.168.99.60:8000/play/a0gq/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g6.png",Azcorazon
@@ -21,8 +19,6 @@ http://192.168.99.60:8000/play/a00l/index.m3u8
 http://192.168.99.60:8000/play/a0g0/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00y.png",CANAL 22 HD
 http://192.168.99.60:8000/play/a00y/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00s.png",CANAL 5 HD
-http://192.168.99.60:8000/play/a00s/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l0.png",CARTOON NT HD
 http://192.168.99.60:8000/play/a0l0/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00v.png",CDN2
@@ -63,10 +59,10 @@ http://192.168.99.60:8000/play/a0hy/index.m3u8
 http://192.168.99.60:8000/play/a0l1/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gy.png",DHE HD
 http://192.168.99.60:8000/play/a0gy/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00h.png",DIRECTV SPORTS HD
+http://192.168.99.60:8000/play/a00h/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hv.png",DISCOVERY THEATHER HD
 http://192.168.99.60:8000/play/a0hv/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00n.png",DISTRITO COMEDIA HD
-http://192.168.99.60:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kn.png",Discovery Channel HD
 http://192.168.99.60:8000/play/a0kn/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ks.png",Discovery ID HD
@@ -135,6 +131,8 @@ http://192.168.99.60:8000/play/a0jp/index.m3u8
 http://192.168.99.60:8000/play/a0gk/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hw.png",Home & Health HD
 http://192.168.99.60:8000/play/a0hw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00m.png",LA LIGA HD
+http://192.168.99.60:8000/play/a00m/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00f.png",LAS ESTRELLAS HD
 http://192.168.99.60:8000/play/a00f/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gb.png",LIFE TIME
@@ -215,8 +213,6 @@ http://192.168.99.60:8000/play/a0gj/index.m3u8
 http://192.168.99.60:8000/play/a0g9/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jw.png",TCM
 http://192.168.99.60:8000/play/a0jw/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00m.png",TL NOVELAS
-http://192.168.99.60:8000/play/a00m/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hh.png",TLC
 http://192.168.99.60:8000/play/a0hh/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hu.png",TNT HD
@@ -227,8 +223,6 @@ http://192.168.99.60:8000/play/a0km/index.m3u8
 http://192.168.99.60:8000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hm.png",TVE
 http://192.168.99.60:8000/play/a0hm/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00h.png",TYC SPORTS HD
-http://192.168.99.60:8000/play/a00h/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gv.png",Telemundo HD
 http://192.168.99.60:8000/play/a0gv/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gn.png",Tigo Sports HD
@@ -239,5 +233,3 @@ http://192.168.99.60:8000/play/a0ih/index.m3u8
 http://192.168.99.60:8000/play/a0kr/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ho.png",WARNER HD
 http://192.168.99.60:8000/play/a0ho/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00q.png",WIN SPORTS HD
-http://192.168.99.60:8000/play/a00q/index.m3u8
