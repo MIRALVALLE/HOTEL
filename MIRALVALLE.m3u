@@ -197,8 +197,14 @@ http://192.168.99.60:8000/play/a0kr/index.m3u8
 http://192.168.99.60:8000/play/a0ho/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gt.png",A&E HD
 http://192.168.99.60:8000/play/a0gt/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03n.png",BEIN SPORTS Ñ SD
-http://192.168.99.60:8000/play/a03n/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a048.png",AFIZZIONADOS HD MX
+http://192.168.99.60:8000/play/a048/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04a.png",AZTECA 7 FHD MX
+http://192.168.99.60:8000/play/a04a/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a044.png",BEIN SPORTS Ñ HD
+http://192.168.99.60:8000/play/a044/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a049.png",CANAL 5 HD MX
+http://192.168.99.60:8000/play/a049/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l0.png",CARTOON NT HD
 http://192.168.99.60:8000/play/a0l0/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03j.png",CCN
@@ -207,19 +213,25 @@ http://192.168.99.60:8000/play/a03j/index.m3u8
 http://192.168.99.60:8000/play/a0fv/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02r.png",Concert Channel
 http://192.168.99.60:8000/play/a02r/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04b.png",DISTRITO COMEDIA HD MX
+http://192.168.99.60:8000/play/a04b/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03i.png",Discovery Kids
 http://192.168.99.60:8000/play/a03i/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03k.png",Las Estrellas HD
-http://192.168.99.60:8000/play/a03k/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03o.png",MOVISTAR LA LIGA HD
-http://192.168.99.60:8000/play/a03o/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a041.png",LAS ESTRELLAS HD MX
+http://192.168.99.60:8000/play/a041/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a045.png",MOVISTAR LA LIGA HD
+http://192.168.99.60:8000/play/a045/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03f.png",Nick 2 HD
 http://192.168.99.60:8000/play/a03f/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03m.png",SKY SPORTS HD
-http://192.168.99.60:8000/play/a03m/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03l.png",TLnovelas HD
-http://192.168.99.60:8000/play/a03l/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03p.png",Telemundo LA
-http://192.168.99.60:8000/play/a03p/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a043.png",SKY SPORTS HD
+http://192.168.99.60:8000/play/a043/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a046.png",TELEMUNDO HD MX
+http://192.168.99.60:8000/play/a046/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a042.png",TL NOVELAS HD MX
+http://192.168.99.60:8000/play/a042/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04c.png",TN23 GT
+http://192.168.99.60:8000/play/a04c/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a047.png",TUDN HD MX
+http://192.168.99.60:8000/play/a047/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02v.png",Tigo Sports HD
 http://192.168.99.60:8000/play/a02v/index.m3u8
