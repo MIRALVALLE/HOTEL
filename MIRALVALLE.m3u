@@ -209,6 +209,8 @@ http://192.168.99.60:8000/play/a049/index.m3u8
 http://192.168.99.60:8000/play/a0l0/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03j.png",CCN
 http://192.168.99.60:8000/play/a03j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04d.png",CNN INTERNATIONAL
+http://192.168.99.60:8000/play/a04d/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0fv.png",Canal Claro
 http://192.168.99.60:8000/play/a0fv/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02r.png",Concert Channel
