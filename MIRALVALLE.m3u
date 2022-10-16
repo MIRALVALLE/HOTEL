@@ -197,10 +197,10 @@ http://192.168.99.60:8000/play/a0kr/index.m3u8
 http://192.168.99.60:8000/play/a0ho/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gt.png",A&E HD
 http://192.168.99.60:8000/play/a0gt/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a048.png",AFIZZIONADOS HD MX
-http://192.168.99.60:8000/play/a048/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04a.png",AZTECA 7 FHD MX
 http://192.168.99.60:8000/play/a04a/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a048.png",BANDAMAX HD
+http://192.168.99.60:8000/play/a048/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a044.png",BEIN SPORTS Ñ HD
 http://192.168.99.60:8000/play/a044/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a049.png",CANAL 5 HD MX
@@ -215,6 +215,8 @@ http://192.168.99.60:8000/play/a04d/index.m3u8
 http://192.168.99.60:8000/play/a0fv/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02r.png",Concert Channel
 http://192.168.99.60:8000/play/a02r/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04e.png",DIRECTV SPORTS 2
+http://192.168.99.60:8000/play/a04e/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04b.png",DISTRITO COMEDIA HD MX
 http://192.168.99.60:8000/play/a04b/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03i.png",Discovery Kids
