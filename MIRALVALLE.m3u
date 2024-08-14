@@ -7,6 +7,14 @@ http://192.168.99.60:8000/play/a0g0/index.m3u8
 http://192.168.99.60:8000/play/a0g1/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0fz.png",Nick Jr
 http://192.168.99.60:8000/play/a0fz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05f.png",Claro Sports 2 CA HD
+http://192.168.99.60:8000/play/a05f/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05i.png",Claro Sports 3 HD
+http://192.168.99.60:8000/play/a05i/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05j.png",Claro Sports 4 HD
+http://192.168.99.60:8000/play/a05j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kz.png",Claro Sports HD
+http://192.168.99.60:8000/play/a0kz/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g3.png",SEMILLITAS
 http://192.168.99.60:8000/play/a0g3/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jl.png",Nat Geo Kids
@@ -51,8 +59,6 @@ http://192.168.99.60:8000/play/a0iw/index.m3u8
 http://192.168.99.60:8000/play/a0k0/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gj.png",TBN Enlace
 http://192.168.99.60:8000/play/a0gj/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kz.png",Claro Sports  HD
-http://192.168.99.60:8000/play/a0kz/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kg.png",ESPN HD
 http://192.168.99.60:8000/play/a0kg/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ki.png",ESPN 2 HD
@@ -85,10 +91,6 @@ http://192.168.99.60:8000/play/a0ik/index.m3u8
 http://192.168.99.60:8000/play/a0hq/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0il.png",CineMax
 http://192.168.99.60:8000/play/a0il/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hl.png",Claro Cinema
-http://192.168.99.60:8000/play/a0hl/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jt.png",Claro Musica
-http://192.168.99.60:8000/play/a0jt/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gi.png",CNN Español
 http://192.168.99.60:8000/play/a0gi/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hy.png",Comedy Central HD
@@ -171,10 +173,6 @@ http://192.168.99.60:8000/play/a0g4/index.m3u8
 http://192.168.99.60:8000/play/a0i1/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h0.png",Star TVE HD
 http://192.168.99.60:8000/play/a0h0/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0go.png",Studio Universal HD
-http://192.168.99.60:8000/play/a0go/index.m3u8
-#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gp.png",SyFy HD
-http://192.168.99.60:8000/play/a0gp/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g9.png",TBS
 http://192.168.99.60:8000/play/a0g9/index.m3u8
 #EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jw.png",TCM
