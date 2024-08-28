@@ -1,1780 +1,235 @@
-{
-    "settings": {
-        "backup_start_delay": "0",
-        "http_play_stream": true,
-        "tsdb_token": "",
-        "http_play_tvg_logo": "/var/lib/astra/tvg-logo/",
-        "textcode": "1",
-        "udp_threads": true,
-        "http_keep_active": "-1",
-        "http_play_hls": true,
-        "http_play_playlist_name": "MIRALVALLE-IPTV",
-        "backup_return_delay": "0"
-    },
-    "dvb_tune": [
-        {
-            "id": "a006",
-            "device": 0,
-            "enable": true,
-            "name": "11130",
-            "adapter": 5,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "V",
-            "frequency": "11130"
-        },
-        {
-            "id": "a0d2",
-            "device": 0,
-            "enable": true,
-            "name": "11010",
-            "adapter": 0,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "V",
-            "frequency": "11010"
-        },
-        {
-            "id": "a004",
-            "device": 0,
-            "enable": true,
-            "name": "11054",
-            "adapter": 3,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "H",
-            "frequency": "11054"
-        },
-        {
-            "id": "a008",
-            "device": 0,
-            "enable": true,
-            "name": "11170",
-            "adapter": 1,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "V",
-            "frequency": "11170"
-        },
-        {
-            "id": "a003",
-            "device": 0,
-            "enable": true,
-            "name": "11050",
-            "adapter": 2,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "V",
-            "frequency": "11050"
-        },
-        {
-            "id": "a009",
-            "device": 0,
-            "enable": true,
-            "name": "11174",
-            "adapter": 7,
-            "type": "S2",
-            "symbolrate": "27900",
-            "polarization": "H",
-            "frequency": "11174"
-        },
-        {
-            "type": "S2",
-            "device": 0,
-            "enable": true,
-            "frequency": "11134",
-            "name": "11134",
-            "id": "a007",
-            "symbolrate": "27900",
-            "adapter": 6,
-            "polarization": "H"
-        },
-        {
-            "type": "S2",
-            "device": 0,
-            "enable": true,
-            "frequency": "11090",
-            "adapter": 4,
-            "id": "a0cx",
-            "symbolrate": "27900",
-            "name": "11090",
-            "polarization": "V"
-        }
-    ],
-    "users": {
-        "admin": {
-            "enable": true,
-            "created": 1619218140,
-            "cipher": "c26994d8c1736dcb1190336385145a28",
-            "interface": {
-                "arrange": "$dvb"
-            },
-            "type": 1
-        },
-        "user": {
-            "type": 1,
-            "created": 1663866909,
-            "cipher": "d40cb4d2420acf4da1ea1ce4b057aa77",
-            "interface": {
-                "order": "lcn",
-                "arrange": "$dvb"
-            },
-            "enable": true
-        }
-    },
-    "gid": 466723,
-    "softcam": [
-        {
-            "id": "a0fu",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11010",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fn",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11050",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fo",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11054",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0ft",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11090",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fp",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11130",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fq",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11134",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fr",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11170",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        },
-        {
-            "id": "a0fs",
-            "disable_emm": true,
-            "host": "astrasfull70.accesscam.org",
-            "port": "19220",
-            "name": "11174",
-            "type": "newcamd",
-            "user": "iksastra03",
-            "split_cam": true,
-            "pass": "iksastra03"
-        }
-    ],
-    "interface": {
-        "theme": "dark",
-        "order": "lcn",
-        "title": "FIBERPLAY"
-    },
-    "make_stream": [
-        {
-            "type": "spts",
-            "_output": [
-                "udp://enp70s0f0@227.1.11.42:1001",
-                "udp://enp70s0f1@227.1.11.42:1001",
-                "udp://enp71s0f0@227.1.11.42:1001",
-                "udp://enp71s0f1@227.1.11.42:1001"
-            ],
-            "name": "Claro Sports 2 CA HD",
-            "input": [
-                "dvb://a007#pnr=644&cam=a0fq"
-            ],
-            "id": "a05f",
-            "lcn": "5",
-            "enable": true
-        },
-        {
-            "type": "spts",
-            "_output": [
-                "udp://enp70s0f0@227.1.11.86:1001",
-                "udp://enp70s0f1@227.1.11.86:1001",
-                "udp://enp71s0f0@227.1.11.86:1001",
-                "udp://enp71s0f1@227.1.11.86:1001"
-            ],
-            "name": "Claro Sports 4 HD",
-            "input": [
-                "dvb://a004#pnr=648&cam=a0fo"
-            ],
-            "id": "a05j",
-            "lcn": "5",
-            "enable": true
-        },
-        {
-            "type": "spts",
-            "_output": [
-                "udp://enp70s0f0@227.1.11.21:1001",
-                "udp://enp70s0f1@227.1.11.21:1001",
-                "udp://enp71s0f0@227.1.11.21:1001",
-                "udp://enp71s0f1@227.1.11.21:1001"
-            ],
-            "name": "Claro Sports 3 HD",
-            "input": [
-                "dvb://a0d2#pnr=647&cam=a0fu"
-            ],
-            "id": "a05i",
-            "lcn": "5",
-            "enable": true
-        },
-        {
-            "type": "spts",
-            "_output": [
-                "udp://enp70s0f0@227.1.11.36:1001",
-                "udp://enp70s0f1@227.1.11.36:1001",
-                "udp://enp71s0f0@227.1.11.36:1001",
-                "udp://enp71s0f1@227.1.11.36:1001"
-            ],
-            "name": "Claro Sports HD",
-            "input": [
-                "dvb://a0d2#pnr=645&cam=a0fu"
-            ],
-            "id": "a0kz",
-            "lcn": "5",
-            "enable": true
-        },
-        {
-            "enable": true,
-            "name": "Canal Claro",
-            "input": [
-                "dvb://a003#pnr=1&cam=a0fn"
-            ],
-            "epg_export_codepage": "1",
-            "id": "a0fv",
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Boomerang",
-            "input": [
-                "dvb://a003#pnr=158&cam=a0fn"
-            ],
-            "id": "a0g0",
-            "lcn": "2",
-            "filter~": "38,909,901"
-        },
-        {
-            "type": "spts",
-            "input": [
-                "dvb://a003#pnr=159&cam=a0fn"
-            ],
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "filter~": "46.919.911,159",
-            "id": "a0g1",
-            "epg_export_codepage": "1",
-            "lcn": "3",
-            "name": "Disney JR"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Nick Jr",
-            "input": [
-                "dvb://a003#pnr=157&cam=a0fn"
-            ],
-            "id": "a0fz",
-            "lcn": "4",
-            "filter~": "59,899,891,157"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "SEMILLITAS",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=163&cam=a0fn"
-            ],
-            "lcn": "5",
-            "id": "a0g3"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Nat Geo Kids",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a0cx#pnr=155&cam=a0ft"
-            ],
-            "lcn": "6",
-            "id": "a0jl"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Disney",
-            "input": [
-                "dvb://a008#pnr=154&cam=a0fr"
-            ],
-            "id": "a0i8",
-            "lcn": "10",
-            "filter~": "45,499,491,154"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal 11 - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a0cx#pnr=99&cam=a0ft"
-            ],
-            "lcn": "12",
-            "id": "a0jk"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Canal 13-GUA",
-            "http_keep_active": "-1",
-            "input": [
-                "dvb://a0cx#pnr=98&cam=a0ft"
-            ],
-            "lcn": "13",
-            "id": "a0jj"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal 3 - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=102&cam=a0fp"
-            ],
-            "lcn": "14",
-            "id": "a0h5"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal 7 - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=101&cam=a0fp"
-            ],
-            "lcn": "15",
-            "id": "a0h4"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal Antigua - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=96&cam=a0fp"
-            ],
-            "lcn": "16",
-            "id": "a0h2"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal Azteca - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=97&cam=a0fp"
-            ],
-            "lcn": "17",
-            "id": "a0h3"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Canal Guatevision - GUA",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=100&cam=a0fn"
-            ],
-            "lcn": "18",
-            "id": "a0fw"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Exa TV",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=356&cam=a0fp"
-            ],
-            "lcn": "19",
-            "id": "a0hk"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a008#pnr=350&cam=a0fr"
-            ],
-            "lcn": "20",
-            "id": "a0if"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV 00s HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a007#pnr=685&cam=a0fq"
-            ],
-            "lcn": "21",
-            "id": "a0i0"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV 80s",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=353&cam=a0fn"
-            ],
-            "lcn": "22",
-            "id": "a0ge"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=659&cam=a0fn"
-            ],
-            "lcn": "23",
-            "id": "a0gm"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV Hits",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=352&cam=a0fn"
-            ],
-            "lcn": "24",
-            "id": "a0gd"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "MTV SIM HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a007#pnr=682&cam=a0fq"
-            ],
-            "lcn": "25",
-            "id": "a0hz"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "La voz de Maria",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a008#pnr=304&cam=a0fr"
-            ],
-            "lcn": "26",
-            "id": "a0id"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "RHEMA TV",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a008#pnr=603&cam=a0fr"
-            ],
-            "lcn": "27",
-            "id": "a0iw"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Sembrador",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a0cx#pnr=601&cam=a0ft"
-            ],
-            "lcn": "28",
-            "id": "a0k0"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "TBN Enlace",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=600&cam=a0fn"
-            ],
-            "lcn": "29",
-            "id": "a0gj"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Golf Channel HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=700&cam=a0fo"
-            ],
-            "lcn": "37",
-            "id": "a0h1"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "filter~": "33,2989,2981,691",
-            "http_keep_active": "42",
-            "input": [
-                "dvb://a004#pnr=691&cam=a0fo"
-            ],
-            "id": "a0gt",
-            "name": "A&E HD"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "AMC HD",
-            "input": [
-                "dvb://a004#pnr=692&cam=a0fo"
-            ],
-            "id": "a0gu",
-            "lcn": "43",
-            "filter~": "34,2999,2991,692"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Animal Planet HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=688&cam=a0fo"
-            ],
-            "lcn": "44",
-            "id": "a0gq"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "AXN HD",
-            "input": [
-                "dvb://a008#pnr=656&cam=a0fr"
-            ],
-            "id": "a0iy",
-            "lcn": "45",
-            "filter~": "32,769,761,656"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "AZ click HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=698&cam=a0fo"
-            ],
-            "lcn": "46",
-            "id": "a0gz"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Azcorazon",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=209&cam=a0fn"
-            ],
-            "lcn": "47",
-            "id": "a0g6"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Azmundo",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a006#pnr=201&cam=a0fp"
-            ],
-            "lcn": "48",
-            "id": "a0h8"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Cine Latino",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a008#pnr=405&cam=a0fr"
-            ],
-            "lcn": "50",
-            "id": "a0ik"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "CINECANAL HD",
-            "input": [
-                "dvb://a006#pnr=658&cam=a0fp"
-            ],
-            "id": "a0hq",
-            "lcn": "51",
-            "filter~": "47,449,442,658"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "CineMax",
-            "input": [
-                "dvb://a008#pnr=406&cam=a0fr"
-            ],
-            "id": "a0il",
-            "lcn": "52",
-            "filter~": "42,639,632,406"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "CNN Español",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=500&cam=a0fn"
-            ],
-            "lcn": "55",
-            "id": "a0gi"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Comedy Central HD",
-            "input": [
-                "dvb://a007#pnr=680&cam=a0fq"
-            ],
-            "id": "a0hy",
-            "lcn": "56",
-            "filter~": "32,1769,1761,680"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "DHE HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=697&cam=a0fo"
-            ],
-            "lcn": "59",
-            "id": "a0gy"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Discovery Channel HD",
-            "input": [
-                "dvb://a009#pnr=671&cam=a0fs"
-            ],
-            "id": "a0kn",
-            "lcn": "60",
-            "filter~": "32,1861,1869,671"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Discovery ID HD",
-            "input": [
-                "dvb://a009#pnr=681&cam=a0fs"
-            ],
-            "id": "a0ks",
-            "lcn": "61",
-            "filter~": "33,1899,1891,681"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "DISCOVERY THEATHER HD",
-            "input": [
-                "dvb://a007#pnr=673&cam=a0fq"
-            ],
-            "id": "a0hv",
-            "lcn": "62",
-            "filter~": "33,1719,1711,673"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Discovery Turbo",
-            "input": [
-                "dvb://a008#pnr=249&cam=a0fr"
-            ],
-            "id": "a0ia",
-            "lcn": "63",
-            "filter~": "46,1649,1641,249"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Discovery World HD",
-            "input": [
-                "dvb://a009#pnr=675&cam=a0fs"
-            ],
-            "id": "a0kp",
-            "lcn": "64",
-            "filter~": "35,1889,1881,675"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "E! Entertairment HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=689&cam=a0fo"
-            ],
-            "lcn": "65",
-            "id": "a0gr"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Europa HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=695&cam=a0fo"
-            ],
-            "lcn": "68",
-            "id": "a00u"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Film & arts HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=690&cam=a0fo"
-            ],
-            "lcn": "69",
-            "id": "a0gs"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "FX HD",
-            "input": [
-                "dvb://a004#pnr=694&cam=a0fo"
-            ],
-            "id": "a0gw",
-            "lcn": "70",
-            "filter~": "36,3019,3011,694"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "FX Movies HD",
-            "input": [
-                "dvb://a004#pnr=696&cam=a0fo"
-            ],
-            "id": "a0gx",
-            "lcn": "71",
-            "filter~": "40,3041,3049,696"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Golden",
-            "input": [
-                "dvb://a0cx#pnr=400&cam=a0ft"
-            ],
-            "id": "a0jv",
-            "lcn": "72",
-            "filter~": "58,1679,1671,400"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HBO HD",
-            "input": [
-                "dvb://a0d2#pnr=701&cam=a0fu"
-            ],
-            "id": "a0l2",
-            "lcn": "74",
-            "filter~": "97,3089,3081"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HBO XTREME HD",
-            "input": [
-                "dvb://a0d2#pnr=705&cam=a0fu"
-            ],
-            "id": "a0l6",
-            "lcn": "76",
-            "filter~": "99,3129,3121"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HBO2 HD",
-            "input": [
-                "dvb://a0d2#pnr=702&cam=a0fu"
-            ],
-            "id": "a00c",
-            "lcn": "77",
-            "filter~": "95,3091,3099"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "History 2",
-            "input": [
-                "dvb://a0cx#pnr=259&cam=a0ft"
-            ],
-            "id": "a0jp",
-            "lcn": "78",
-            "filter~": "59,1669,1661,259"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "History Channel HD",
-            "input": [
-                "dvb://a003#pnr=650&cam=a0fn"
-            ],
-            "id": "a0gk",
-            "lcn": "79",
-            "filter~": "54,1129,1121,650"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HOLA! TV HD",
-            "input": [
-                "dvb://a007#pnr=677&cam=a0fq"
-            ],
-            "id": "a0hx",
-            "lcn": "80",
-            "filter~": "35,1779,1771,677"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Home & Health HD",
-            "input": [
-                "dvb://a007#pnr=674&cam=a0fq"
-            ],
-            "id": "a0hw",
-            "lcn": "81",
-            "filter~": "36,1729,1721,674"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "LIFE TIME",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a003#pnr=257&cam=a0fn"
-            ],
-            "lcn": "83",
-            "id": "a0gb"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Multipremier",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a008#pnr=404&cam=a0fr"
-            ],
-            "lcn": "85",
-            "id": "a0ij"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Nat Geo HD",
-            "input": [
-                "dvb://a009#pnr=667&cam=a0fs"
-            ],
-            "id": "a0kk",
-            "lcn": "86",
-            "filter~": "40,1919,1911,667"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Paramount HD",
-            "input": [
-                "dvb://a009#pnr=668&cam=a0fs"
-            ],
-            "id": "a0kl",
-            "lcn": "87",
-            "filter~": "41,1929,1921,668"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Pasiones HD",
-            "input": [
-                "dvb://a009#pnr=678&cam=a0fs"
-            ],
-            "id": "a0kq",
-            "lcn": "88",
-            "filter~": "42,1949,1941,678"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "RCN Novelas",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a0cx#pnr=214&cam=a0ft"
-            ],
-            "lcn": "89",
-            "id": "a0jn"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "SONY HD",
-            "input": [
-                "dvb://a006#pnr=655&cam=a0fp"
-            ],
-            "id": "a0hp",
-            "lcn": "91",
-            "filter~": "59,439,431,655"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "SPACE HD",
-            "input": [
-                "dvb://a008#pnr=657&cam=a0fr"
-            ],
-            "id": "a0iz",
-            "lcn": "92",
-            "filter~": "65,779,771,657"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "STAR CHANNEL HD",
-            "input": [
-                "dvb://a006#pnr=651&cam=a0fp"
-            ],
-            "id": "a0hn",
-            "lcn": "94",
-            "filter~": "55,419,411,651"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "STAR LIFE",
-            "input": [
-                "dvb://a003#pnr=204&cam=a0fn"
-            ],
-            "id": "a0g4",
-            "lcn": "99",
-            "filter~": "50,929,922,204"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Star TVE HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=699&cam=a0fo"
-            ],
-            "lcn": "101",
-            "id": "a0h0"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "TBS",
-            "input": [
-                "dvb://a003#pnr=215&cam=a0fn"
-            ],
-            "id": "a0g9",
-            "lcn": "104",
-            "filter~": "61,979,971,215"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "TCM",
-            "input": [
-                "dvb://a0cx#pnr=410&cam=a0ft"
-            ],
-            "id": "a0jw",
-            "lcn": "105",
-            "filter~": "67,1579,1571,410"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Telemundo HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=693&cam=a0fo"
-            ],
-            "lcn": "106",
-            "id": "a0gv"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "TNT HD",
-            "input": [
-                "dvb://a007#pnr=669&cam=a0fq"
-            ],
-            "id": "a0hu",
-            "lcn": "109",
-            "filter~": "40,1739,1732,669"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "TNT Series HD",
-            "input": [
-                "dvb://a009#pnr=670&cam=a0fs"
-            ],
-            "id": "a0km",
-            "lcn": "110",
-            "filter~": "43,1909,1901,670"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Universal",
-            "input": [
-                "dvb://a008#pnr=401&cam=a0fr"
-            ],
-            "id": "a0ih",
-            "lcn": "112",
-            "filter~": "68,599,591,401"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Univision HD",
-            "input": [
-                "dvb://a009#pnr=679&cam=a0fs"
-            ],
-            "id": "a0kr",
-            "lcn": "113",
-            "filter~": "44,1959,1951,679"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "WARNER HD",
-            "input": [
-                "dvb://a006#pnr=654&cam=a0fp"
-            ],
-            "id": "a0ho",
-            "lcn": "114",
-            "filter~": "66,429,421,654"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "UNIVERSAL REALITY HD",
-            "input": [
-                "dvb://a007#pnr=713&cam=a0fq"
-            ],
-            "id": "a0i3",
-            "lcn": "93",
-            "filter~": "713,3159,3152"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "UNIVERSAL COMEDY HD",
-            "input": [
-                "dvb://a007#pnr=715&cam=a0fq"
-            ],
-            "id": "a0i5",
-            "lcn": "95",
-            "filter~": "715,3179,3171"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "UNIVERSAL CINEMA HD",
-            "input": [
-                "dvb://a009#pnr=716&cam=a0fs"
-            ],
-            "id": "a0kt",
-            "lcn": "96",
-            "filter~": "716,3189,3182"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "UNIVERSAL PREMIERE O HD",
-            "input": [
-                "dvb://a007#pnr=712&cam=a0fq"
-            ],
-            "id": "a0i2",
-            "lcn": "98",
-            "filter~": "712,3149,3142"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "UNIVERSAL PREMIERE HD",
-            "input": [
-                "dvb://a007#pnr=711&cam=a0fq"
-            ],
-            "id": "a0i1",
-            "lcn": "100",
-            "filter~": " 711,3139,3132"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HBO Plus HD",
-            "input": [
-                "dvb://a0d2#pnr=703&cam=a0fu"
-            ],
-            "id": "a0l4",
-            "lcn": "75",
-            "filter~": "703,3109,3101"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "EURO Channel",
-            "input": [
-                "dvb://a0cx#pnr=216&cam=a0ft"
-            ],
-            "id": "a00x",
-            "lcn": "67",
-            "filter~": "52,1499,1491,216"
-        },
-        {
-            "enable": true,
-            "name": "Concert Channel",
-            "input": [
-                "dvb://a008#pnr=355&cam=a0fr"
-            ],
-            "epg_export_codepage": "1",
-            "id": "a02r",
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000"
-        },
-        {
-            "enable": true,
-            "name": "Tigo Sports HD",
-            "input": [
-                "dvb://a007#pnr=641&cam=a0fq"
-            ],
-            "epg_export_codepage": "1",
-            "id": "a02v",
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "UNIVERSAL CRIME HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a007#pnr=714&cam=a0fq"
-            ],
-            "lcn": "97",
-            "id": "a0i4"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "HBO Family HD",
-            "input": [
-                "dvb://a0d2#pnr=704&cam=a0fu"
-            ],
-            "id": "a0l5",
-            "lcn": "73",
-            "filter~": "98,3111,3119"
-        },
-        {
-            "enable": true,
-            "type": "spts",
-            "filter~": "683,2039,2032",
-            "id": "a0l0",
-            "output": [
-                "udp://eno1@224.5.22.2:4000"
-            ],
-            "input": [
-                "dvb://a0d2#pnr=683&cam=a0fu"
-            ],
-            "name": "CARTOON NT HD"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "name": "Nick 2 HD",
-            "epg_export_codepage": "1",
-            "input": [
-                "dvb://a004#pnr=660&cam=a0fo"
-            ],
-            "id": "a03f",
-            "filter~": "660,1749,1741"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "Nickelodeon HD",
-            "input": [
-                "dvb://a007#pnr=661&cam=a0fq"
-            ],
-            "id": "a0hs",
-            "lcn": "9",
-            "filter~": "661,1809,1801"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "TLC",
-            "input": [
-                "dvb://a006#pnr=256&cam=a0fp"
-            ],
-            "id": "a0hh",
-            "lcn": "108",
-            "filter~": "256,1160,1130"
-        },
-        {
-            "id": "a03i",
-            "name": "Discovery Kids",
-            "type": "spts",
-            "input": [
-                "dvb://a008#pnr=151&cam=a0fr"
-            ],
-            "enable": true
-        },
-        {
-            "id": "a03j",
-            "name": "CCN",
-            "type": "spts",
-            "input": [
-                "dvb://a003#pnr=160&cam=a0fn"
-            ],
-            "enable": true
-        },
-        {
-            "enable": true,
-            "name": "TN23 GT",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "https://dy434h3s52eoj.cloudfront.net/Canal23GT/235557e601489a53ece741671338603f.sdp/Canal23GT/Canal23GT1/chunks.m3u8"
-            ],
-            "id": "a04c"
-        },
-        {
-            "enable": true,
-            "name": "SKY SPORTS HD",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05s/index.m3u8",
-                "https://45.228.234.185:8000/play/6cRy90sCS-TOYuuDL-mqM3TSUY7bc87_-9COtkSIiPp5BkCS4miDPGgVJPH9AP2W/m3u8"
-            ],
-            "id": "a043"
-        },
-        {
-            "enable": true,
-            "name": "LAS ESTRELLAS HD MX",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05n/index.m3u8",
-                "https://142.44.163.92:443/miralvalle/123/16.m3u8"
-            ],
-            "id": "a041"
-        },
-        {
-            "enable": true,
-            "name": "BANDAMAX HD",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05r/index.m3u8",
-                "https://142.44.163.92:443/miralvalle/123/3.m3u8"
-            ],
-            "id": "a048"
-        },
-        {
-            "enable": true,
-            "name": "DISTRITO COMEDIA HD MX",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05o/index.m3u8"
-            ],
-            "id": "a04b"
-        },
-        {
-            "enable": true,
-            "name": "AZTECA 7 FHD MX",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05q/index.m3u8"
-            ],
-            "id": "a04a"
-        },
-        {
-            "id": "a042",
-            "name": "TL NOVELAS HD MX",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05m/index.m3u8",
-                "https://142.44.163.92:443/miralvalle/123/15.m3u8"
-            ],
-            "enable": true
-        },
-        {
-            "enable": true,
-            "name": "TUDN HD MX",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05p/index.m3u8",
-                "https://142.44.163.92:443/miralvalle/123/3.m3u8"
-            ],
-            "id": "a047"
-        },
-        {
-            "enable": true,
-            "name": "MOVISTAR LA LIGA HD",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "https://satlinkrestream.com:443/joselopez/miralvalle/4.ts"
-            ],
-            "id": "a045"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "ESPN 6 HD",
-            "input": [
-                "dvb://a009#pnr=666&cam=a0fs"
-            ],
-            "id": "a0kj",
-            "lcn": "36",
-            "filter~": "39,1859,1851,666"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "ESPN 5 HD",
-            "input": [
-                "dvb://a008#pnr=664&cam=a0fr"
-            ],
-            "id": "a0ix",
-            "lcn": "34",
-            "filter~": "51,759,751,653"
-        },
-        {
-            "type": "spts",
-            "epg_export_format": "json",
-            "epg_export": "http://190.160.50.11:5000",
-            "enable": true,
-            "epg_export_codepage": "1",
-            "name": "ESPN  4 HD",
-            "input": [
-                "dvb://a003#pnr=663&cam=a0fn"
-            ],
-            "id": "a0gl",
-            "lcn": "35",
-            "filter~": "47,1239,1231,652"
-        },
-        {
-            "id": "a0kg",
-            "name": "ESPN HD",
-            "type": "spts",
-            "input": [
-                "dvb://a009#pnr=652&cam=a0fs"
-            ],
-            "lcn": "31",
-            "enable": true
-        },
-        {
-            "id": "a0ki",
-            "name": "ESPN 2 HD",
-            "type": "spts",
-            "input": [
-                "dvb://a009#pnr=653&cam=a0fs"
-            ],
-            "lcn": "32",
-            "enable": true
-        },
-        {
-            "id": "a0kh",
-            "name": "ESPN 3 HD",
-            "type": "spts",
-            "input": [
-                "dvb://a009#pnr=662&cam=a0fs"
-            ],
-            "lcn": "33",
-            "enable": true
-        },
-        {
-            "enable": true,
-            "name": "CANAL 5  MX",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "https://38.110.1.251:443/joselopez/miralvalle/17.ts",
-                "https://satlinkrestream.com:443/joselopez/miralvalle/17.ts"
-            ],
-            "id": "a049"
-        },
-        {
-            "enable": true,
-            "name": "MASTV TOTO HD ",
-            "http_keep_active": "-1",
-            "type": "spts",
-            "input": [
-                "http://45.5.117.172:8100/play/a05t/index.m3u8",
-                "https://142.44.163.92:443/miralvalle/123/11.m3u8"
-            ],
-            "id": "a046"
-        },
-        {
-            "id": "a04i",
-            "name": "Claro Sports 2 CA HD",
-            "type": "spts",
-            "input": [
-                "dvb://a007#pnr=644&cam=a0fq"
-            ],
-            "enable": true
-        },
-        {
-            "type": "spts",
-            "lcn": "1",
-            "name": "CANAL 22 HD",
-            "http_keep_active": "-1",
-            "id": "a03h",
-            "input": [
-                "http://192.168.99.99/0.m3u8"
-            ],
-            "enable": true
-        },
-        {
-            "type": "spts",
-            "name": "DIRECTV SPORTS 2",
-            "enable": false,
-            "input": [
-                "http://69.30.212.234:25461/live/miralvalle/123/3.m3u8"
-            ],
-            "id": "a04e"
-        },
-        {
-            "type": "spts",
-            "name": "BEIN SPORTS  HD",
-            "http_keep_active": "-1",
-            "id": "a044",
-            "input": [
-                "https://142.44.163.92:443/miralvalle/123/13.m3u8"
-            ],
-            "enable": false
-        },
-        {
-            "type": "spts",
-            "name": "AFIZZIONADOS",
-            "http_keep_active": "-1",
-            "id": "a04d",
-            "input": [
-                "http://45.228.234.185:8000/play/6cRy90sCS-TOYuuDL-mqM3TSUY7bc87_-9COtkSIiPp5BkCS4miDPGgVJPH9AP2W.m3u8"
-            ],
-            "enable": false
-        },
-        {
-            "type": "spts",
-            "name": "El Gourmet",
-            "enable": true,
-            "input": [
-                "dvb://a0cx#pnr=260&cam=a0ft"
-            ],
-            "id": "a04j"
-        }
-    ]
-}
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03h.png",CANAL 22 HD
+http://192.168.99.60:8000/play/a03h/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g0.png",Boomerang
+http://192.168.99.60:8000/play/a0g0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g1.png",Disney JR
+http://192.168.99.60:8000/play/a0g1/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0fz.png",Nick Jr
+http://192.168.99.60:8000/play/a0fz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05f.png",Claro Sports 2 CA HD
+http://192.168.99.60:8000/play/a05f/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05i.png",Claro Sports 3 HD
+http://192.168.99.60:8000/play/a05i/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a05j.png",Claro Sports 4 HD
+http://192.168.99.60:8000/play/a05j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kz.png",Claro Sports HD
+http://192.168.99.60:8000/play/a0kz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g3.png",SEMILLITAS
+http://192.168.99.60:8000/play/a0g3/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jl.png",Nat Geo Kids
+http://192.168.99.60:8000/play/a0jl/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hs.png",Nickelodeon HD
+http://192.168.99.60:8000/play/a0hs/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i8.png",Disney
+http://192.168.99.60:8000/play/a0i8/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jk.png",Canal 11 - GUA
+http://192.168.99.60:8000/play/a0jk/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jj.png",Canal 13-GUA
+http://192.168.99.60:8000/play/a0jj/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h5.png",Canal 3 - GUA
+http://192.168.99.60:8000/play/a0h5/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h4.png",Canal 7 - GUA
+http://192.168.99.60:8000/play/a0h4/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h2.png",Canal Antigua - GUA
+http://192.168.99.60:8000/play/a0h2/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h3.png",Canal Azteca - GUA
+http://192.168.99.60:8000/play/a0h3/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0fw.png",Canal Guatevision - GUA
+http://192.168.99.60:8000/play/a0fw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hk.png",Exa TV
+http://192.168.99.60:8000/play/a0hk/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0if.png",MTV
+http://192.168.99.60:8000/play/a0if/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i0.png",MTV 00s HD
+http://192.168.99.60:8000/play/a0i0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ge.png",MTV 80s
+http://192.168.99.60:8000/play/a0ge/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gm.png",MTV HD
+http://192.168.99.60:8000/play/a0gm/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gd.png",MTV Hits
+http://192.168.99.60:8000/play/a0gd/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hz.png",MTV SIM HD
+http://192.168.99.60:8000/play/a0hz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0id.png",La voz de Maria
+http://192.168.99.60:8000/play/a0id/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0iw.png",RHEMA TV
+http://192.168.99.60:8000/play/a0iw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0k0.png",Sembrador
+http://192.168.99.60:8000/play/a0k0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gj.png",TBN Enlace
+http://192.168.99.60:8000/play/a0gj/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kg.png",ESPN HD
+http://192.168.99.60:8000/play/a0kg/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ki.png",ESPN 2 HD
+http://192.168.99.60:8000/play/a0ki/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kh.png",ESPN 3 HD
+http://192.168.99.60:8000/play/a0kh/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ix.png",ESPN 5 HD
+http://192.168.99.60:8000/play/a0ix/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gl.png",ESPN  4 HD
+http://192.168.99.60:8000/play/a0gl/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kj.png",ESPN 6 HD
+http://192.168.99.60:8000/play/a0kj/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h1.png",Golf Channel HD
+http://192.168.99.60:8000/play/a0h1/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gu.png",AMC HD
+http://192.168.99.60:8000/play/a0gu/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gq.png",Animal Planet HD
+http://192.168.99.60:8000/play/a0gq/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0iy.png",AXN HD
+http://192.168.99.60:8000/play/a0iy/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gz.png",AZ click HD
+http://192.168.99.60:8000/play/a0gz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g6.png",Azcorazon
+http://192.168.99.60:8000/play/a0g6/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h8.png",Azmundo
+http://192.168.99.60:8000/play/a0h8/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ik.png",Cine Latino
+http://192.168.99.60:8000/play/a0ik/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hq.png",CINECANAL HD
+http://192.168.99.60:8000/play/a0hq/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0il.png",CineMax
+http://192.168.99.60:8000/play/a0il/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gi.png",CNN Español
+http://192.168.99.60:8000/play/a0gi/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hy.png",Comedy Central HD
+http://192.168.99.60:8000/play/a0hy/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gy.png",DHE HD
+http://192.168.99.60:8000/play/a0gy/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kn.png",Discovery Channel HD
+http://192.168.99.60:8000/play/a0kn/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ks.png",Discovery ID HD
+http://192.168.99.60:8000/play/a0ks/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hv.png",DISCOVERY THEATHER HD
+http://192.168.99.60:8000/play/a0hv/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ia.png",Discovery Turbo
+http://192.168.99.60:8000/play/a0ia/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kp.png",Discovery World HD
+http://192.168.99.60:8000/play/a0kp/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gr.png",E! Entertairment HD
+http://192.168.99.60:8000/play/a0gr/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00x.png",EURO Channel
+http://192.168.99.60:8000/play/a00x/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00u.png",Europa HD
+http://192.168.99.60:8000/play/a00u/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gs.png",Film & arts HD
+http://192.168.99.60:8000/play/a0gs/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gw.png",FX HD
+http://192.168.99.60:8000/play/a0gw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gx.png",FX Movies HD
+http://192.168.99.60:8000/play/a0gx/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jv.png",Golden
+http://192.168.99.60:8000/play/a0jv/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l5.png",HBO Family HD
+http://192.168.99.60:8000/play/a0l5/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l2.png",HBO HD
+http://192.168.99.60:8000/play/a0l2/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l4.png",HBO Plus HD
+http://192.168.99.60:8000/play/a0l4/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l6.png",HBO XTREME HD
+http://192.168.99.60:8000/play/a0l6/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a00c.png",HBO2 HD
+http://192.168.99.60:8000/play/a00c/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jp.png",History 2
+http://192.168.99.60:8000/play/a0jp/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gk.png",History Channel HD
+http://192.168.99.60:8000/play/a0gk/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hx.png",HOLA! TV HD
+http://192.168.99.60:8000/play/a0hx/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hw.png",Home & Health HD
+http://192.168.99.60:8000/play/a0hw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gb.png",LIFE TIME
+http://192.168.99.60:8000/play/a0gb/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ij.png",Multipremier
+http://192.168.99.60:8000/play/a0ij/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kk.png",Nat Geo HD
+http://192.168.99.60:8000/play/a0kk/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kl.png",Paramount HD
+http://192.168.99.60:8000/play/a0kl/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kq.png",Pasiones HD
+http://192.168.99.60:8000/play/a0kq/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jn.png",RCN Novelas
+http://192.168.99.60:8000/play/a0jn/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hp.png",SONY HD
+http://192.168.99.60:8000/play/a0hp/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0iz.png",SPACE HD
+http://192.168.99.60:8000/play/a0iz/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i3.png",UNIVERSAL REALITY HD
+http://192.168.99.60:8000/play/a0i3/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hn.png",STAR CHANNEL HD
+http://192.168.99.60:8000/play/a0hn/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i5.png",UNIVERSAL COMEDY HD
+http://192.168.99.60:8000/play/a0i5/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kt.png",UNIVERSAL CINEMA HD
+http://192.168.99.60:8000/play/a0kt/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i4.png",UNIVERSAL CRIME HD
+http://192.168.99.60:8000/play/a0i4/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i2.png",UNIVERSAL PREMIERE O HD
+http://192.168.99.60:8000/play/a0i2/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g4.png",STAR LIFE
+http://192.168.99.60:8000/play/a0g4/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0i1.png",UNIVERSAL PREMIERE HD
+http://192.168.99.60:8000/play/a0i1/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0h0.png",Star TVE HD
+http://192.168.99.60:8000/play/a0h0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0g9.png",TBS
+http://192.168.99.60:8000/play/a0g9/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0jw.png",TCM
+http://192.168.99.60:8000/play/a0jw/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gv.png",Telemundo HD
+http://192.168.99.60:8000/play/a0gv/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hh.png",TLC
+http://192.168.99.60:8000/play/a0hh/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0hu.png",TNT HD
+http://192.168.99.60:8000/play/a0hu/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0km.png",TNT Series HD
+http://192.168.99.60:8000/play/a0km/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ih.png",Universal
+http://192.168.99.60:8000/play/a0ih/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0kr.png",Univision HD
+http://192.168.99.60:8000/play/a0kr/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0ho.png",WARNER HD
+http://192.168.99.60:8000/play/a0ho/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0gt.png",A&E HD
+http://192.168.99.60:8000/play/a0gt/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04a.png",AZTECA 7 FHD MX
+http://192.168.99.60:8000/play/a04a/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a048.png",BANDAMAX HD
+http://192.168.99.60:8000/play/a048/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a049.png",CANAL 5  MX
+http://192.168.99.60:8000/play/a049/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0l0.png",CARTOON NT HD
+http://192.168.99.60:8000/play/a0l0/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03j.png",CCN
+http://192.168.99.60:8000/play/a03j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a0fv.png",Canal Claro
+http://192.168.99.60:8000/play/a0fv/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04i.png",Claro Sports 2 CA HD
+http://192.168.99.60:8000/play/a04i/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02r.png",Concert Channel
+http://192.168.99.60:8000/play/a02r/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04b.png",DISTRITO COMEDIA HD MX
+http://192.168.99.60:8000/play/a04b/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03i.png",Discovery Kids
+http://192.168.99.60:8000/play/a03i/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04j.png",El Gourmet
+http://192.168.99.60:8000/play/a04j/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a041.png",LAS ESTRELLAS HD MX
+http://192.168.99.60:8000/play/a041/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a046.png",MASTV TOTO HD 
+http://192.168.99.60:8000/play/a046/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a045.png",MOVISTAR LA LIGA HD
+http://192.168.99.60:8000/play/a045/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a03f.png",Nick 2 HD
+http://192.168.99.60:8000/play/a03f/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a043.png",SKY SPORTS HD
+http://192.168.99.60:8000/play/a043/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a042.png",TL NOVELAS HD MX
+http://192.168.99.60:8000/play/a042/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a04c.png",TN23 GT
+http://192.168.99.60:8000/play/a04c/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a047.png",TUDN HD MX
+http://192.168.99.60:8000/play/a047/index.m3u8
+#EXTINF:-1 tvg-logo="http://192.168.99.60:8000/MIRALVALLE-IPTV/tvg-logo/a02v.png",Tigo Sports HD
+http://192.168.99.60:8000/play/a02v/index.m3u8
